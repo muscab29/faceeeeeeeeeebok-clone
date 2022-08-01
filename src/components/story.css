@@ -1,0 +1,38 @@
+.story {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 200px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  position: relative;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.story:hover {
+  transform: scale(1.07);
+}
+.story > h4 {
+  position: absolute;
+  bottom: 17px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+}
+.avatar {
+  position: absolute;
+  /* margin: 10px; */
+  top: 15px;
+  left: 10px;
+  border-radius: 10px;
+  border: solid 4px #2e81f4;
+}
+.add__icon {
+  position: absolute;
+  bottom: 35px;
+  color: #2e81f4;
+  left: 35px;
+  font-size: 3rem;
+}

@@ -1,0 +1,9 @@
+.sidebarr:hover {
+  background-color: #ccd2d6;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.sm {
+  margin-top: 4.5rem;
+}

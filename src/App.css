@@ -1,0 +1,38 @@
+.app {
+  overflow: auto;
+}
+.app__body {
+  background-color: #f1f2f5;
+
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: 2fr 0.9fr 2fr;
+}
+.fleex {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 1.5rem;
+}
+.fleex > img {
+  width: 200px;
+  height: 100px;
+}
+.fleex > h5 {
+  margin-left: 10px;
+}
+.text-hide {
+  color: #f1f2f5;
+}
+.sponsored {
+  margin-top: 5rem;
+  overflow-y: scroll;
+}
+.contact-top {
+  display: flex;
+  justify-content: space-between;
+}
+.p-1 {
+  padding: 0px 6px;
+}

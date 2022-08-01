@@ -1,0 +1,123 @@
+.messageSender {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.message__input {
+  border-radius: 15px;
+  background-color: #eff2f5;
+  margin-left: 10px;
+  padding: 8px 18px;
+}
+.topMessager {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eff2f5;
+  padding-bottom: 10px;
+}
+
+.message__input {
+  border: none;
+  width: 400px;
+  flex: 5;
+  padding: 10px 10px;
+  cursor: pointer;
+  /* background-color: transparent; */
+  /* padding-right: 5rem; */
+}
+.message__input:focus {
+  outline: none;
+}
+
+.buttomMessanger {
+  display: flex;
+  align-items: center;
+}
+.msgOption {
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.msgOption :nth-child(1) {
+  padding-right: 5px;
+}
+.hide_btn {
+  display: none;
+}
+.top-modal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #eff2f5;
+  margin-bottom: 2rem;
+}
+.top-lower {
+  display: flex;
+  align-items: center;
+}
+.small-nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
+.deep {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  border-radius: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.m-1 {
+  margin: 0rem 10px;
+}
+.post-form {
+  font-size: 1.2rem;
+  border: none;
+}
+.post-form:focus {
+  border: none;
+  outline: none;
+}
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: #ff5c7a;
+  border-radius: 4px;
+  text-align: center;
+}
+.modal-bottom-1 {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-2 {
+  /* display: none; */
+}
+.modal-bottom-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 5px;
+  border: 1px solid #d6d9db;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+.in {
+  cursor: pointer;
+}
+.btnSubmit {
+  width: 100%;
+  margin-top: 0.8rem;
+  padding: 9px 0px;
+  cursor: pointer;
+}
+.msgOption:hover {
+  background-color: #eff2f5;
+  border-radius: 5px;
+}

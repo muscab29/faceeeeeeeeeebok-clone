@@ -1,0 +1,15 @@
+.contact-flex {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+.contact-flex > p {
+  padding-left: 10px;
+}
+.ava {
+  height: "10px";
+  width: "70px";
+}
+/* .contact-flex :hover {
+  background-color: red;
+} */
